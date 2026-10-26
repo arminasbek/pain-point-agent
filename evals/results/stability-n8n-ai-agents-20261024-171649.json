@@ -1,0 +1,48 @@
+{
+  "niche": "n8n + AI agents",
+  "model": "claude-haiku-5-5",
+  "stability": {
+    "runs": 5,
+    "runs_with_findings": 1,
+    "threads": 2,
+    "threads_in_2_plus_runs": 0.0,
+    "mean_pairwise_jaccard": 0.0
+  },
+  "runs": [
+    {
+      "problems": [],
+      "threads": [],
+      "stopped": "",
+      "cost_usd": 0.007462115000000001
+    },
+    {
+      "problems": [],
+      "threads": [],
+      "stopped": "",
+      "cost_usd": 0.010856855000000002
+    },
+    {
+      "problems": [],
+      "threads": [],
+      "stopped": "",
+      "cost_usd": 0.005154565000000001
+    },
+    {
+      "problems": [
+        "AI Agent tool nodes fail or return nothing (n8n agent v3.1 / HTTP tool breakage)"
+      ],
+      "threads": [
+        "https://github.com/n8n-io/n8n/issues/38870",
+        "https://github.com/n8n-io/n8n/issues/41604"
+      ],
+      "stopped": "",
+      "cost_usd": 0.009544400000000001
+    },
+    {
+      "problems": [],
+      "threads": [],
+      "stopped": "",
+      "cost_usd": 0.006860235000000001
+    }
+  ]
+}

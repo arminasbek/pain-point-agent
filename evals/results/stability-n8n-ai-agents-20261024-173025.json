@@ -1,0 +1,58 @@
+{
+  "niche": "n8n + AI agents",
+  "model": "claude-haiku-5-5",
+  "stability": {
+    "runs": 5,
+    "runs_with_findings": 3,
+    "threads": 6,
+    "threads_in_2_plus_runs": 0.0,
+    "mean_pairwise_jaccard": 0.0
+  },
+  "runs": [
+    {
+      "problems": [],
+      "threads": [],
+      "stopped": "",
+      "cost_usd": 0.005032815
+    },
+    {
+      "problems": [],
+      "threads": [],
+      "stopped": "",
+      "cost_usd": 0.007255540000000001
+    },
+    {
+      "problems": [
+        "Long-running agent tool calls hit hard timeouts"
+      ],
+      "threads": [
+        "https://community.openai.com/t/agentsdk-and-chatgpt-ui-fails-running-time-consuming-mcp-tool-with-typeerror-fetch-failed/1366562",
+        "https://community.openai.com/t/call-remote-mcp-server-tool-timed-out-resulting-in-error-424/1364167"
+      ],
+      "stopped": "",
+      "cost_usd": 0.007796375
+    },
+    {
+      "problems": [
+        "Agent does not call a tool it should (tool skipped or not triggered)"
+      ],
+      "threads": [
+        "https://community.make.com/t/ai-agent-tools-do-not-run/95409",
+        "https://community.openai.com/t/agents-sdk-not-call-second-tool-after-getting-response-from-first-one/1145213"
+      ],
+      "stopped": "",
+      "cost_usd": 0.010225355
+    },
+    {
+      "problems": [
+        "Agent hits max turns / tool-call loop errors with no recoverable output"
+      ],
+      "threads": [
+        "https://community.openai.com/t/how-to-get-partial-response-from-agent-when-hitting-maxturnsexceeded/1273913",
+        "https://community.openai.com/t/maxturnsexceeded-error-during-agent-tool-execution-unable-to-retrieve-final-output/1370708"
+      ],
+      "stopped": "",
+      "cost_usd": 0.00694422
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "niche": "n8n + AI agents",
+  "model": "claude-haiku-5-5",
+  "stability": {
+    "runs": 5,
+    "runs_with_findings": 4,
+    "threads": 6,
+    "threads_in_2_plus_runs": 0.5,
+    "mean_pairwise_jaccard": 0.315
+  },
+  "runs": [
+    {
+      "problems": [
+        "AI Agent node fails or silently drops tool results (n8n agent/tool bugs)",
+        "Qdrant Vector Store node fails with \"fetch failed\" while the Qdrant server is healthy"
+      ],
+      "threads": [
+        "https://github.com/n8n-io/n8n/issues/37690",
+        "https://github.com/n8n-io/n8n/issues/38261",
+        "https://github.com/n8n-io/n8n/issues/39670",
+        "https://github.com/n8n-io/n8n/issues/41604"
+      ],
+      "stopped": "",
+      "cost_usd": 0.008897785
+    },
+    {
+      "problems": [
+        "AI Agent tool failures: tool errors silently swallowed or agent crashes on tool-call turns",
+        "AI Agent v3.x breaks on tool-call turns with memory and tool nodes"
+      ],
+      "threads": [
+        "https://github.com/n8n-io/n8n/issues/38870",
+        "https://github.com/n8n-io/n8n/issues/39670",
+        "https://github.com/n8n-io/n8n/issues/41604"
+      ],
+      "stopped": "",
+      "cost_usd": 0.010318049999999999
+    },
+    {
+      "problems": [],
+      "threads": [],
+      "stopped": "",
+      "cost_usd": 0.00699872
+    },
+    {
+      "problems": [
+        "AI Agent tool/memory failures in n8n"
+      ],
+      "threads": [
+        "https://github.com/n8n-io/n8n/issues/39670",
+        "https://github.com/n8n-io/n8n/issues/41604"
+      ],
+      "stopped": "",
+      "cost_usd": 0.007271745
+    },
+    {
+      "problems": [
+        "AI Agent tool nodes fail or return nothing (missing execute method, silent failures)",
+        "Agent memory / message history breaks the agent run"
+      ],
+      "threads": [
+        "https://github.com/n8n-io/n8n/issues/38870",
+        "https://github.com/n8n-io/n8n/issues/39670",
+        "https://github.com/n8n-io/n8n/issues/41554",
+        "https://github.com/n8n-io/n8n/issues/41604"
+      ],
+      "stopped": "",
+      "cost_usd": 0.009028080000000003
+    }
+  ]
+}

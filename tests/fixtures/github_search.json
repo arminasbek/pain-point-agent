@@ -1,0 +1,75 @@
+{
+ "total_count": 238,
+ "items": [
+  {
+   "id": 4880339745,
+   "number": 2707,
+   "title": "[BUG] Critical Issue - Error 463 (Reachout Timelock) Causing Account Bans",
+   "comments": 14,
+   "created_at": "2026-07-14T06:06:38Z",
+   "html_url": "https://github.com/WhiskeySockets/Baileys/issues/2707",
+   "url": "https://api.github.com/repos/WhiskeySockets/Baileys/issues/2707",
+   "comments_url": "https://api.github.com/repos/WhiskeySockets/Baileys/issues/2707/comments",
+   "body": "We are experiencing a critical issue where WhatsApp accounts using Baileys are getting temporarily banned (Error 463 - Reachout Timelock) when trying to send messages to users who haven't been contacted before.\n\nProblem Details\n\n1. Error 463 occurs when attempting to send messages to new contacts or users who haven't interacted with the bot recently.\n2. Current Behavior: Baileys does not automatically handle the Trusted Contact (TC) Token / Privacy Token required by WhatsApp to establish trust with new contacts.\n3. Result: Repeated Error 463 responses lead to temporary account restrictions and bans, making bots unreliable for legitimate use cases.\n\nTechnical Context\n\nWhatsApp requires a Trusted Contact (TC) Token (also known as privacy token) for 1-on-1 messaging between users who haven't established recent conversation history. This token:\n\n· Is issued by WhatsApp servers via a privacy IQ request\n· Has a lifespan of approximately 28 days\n· Must be attached to outgoing messages with a ",
+   "user": {
+    "login": "JawadTechYT"
+   }
+  },
+  {
+   "id": 5718244452,
+   "number": 1,
+   "title": "[Feature]: groupwarden — self-hosted anti-spam moderator for WhatsApp Communities (combination rules, shared ban list, Telegram admin alerts)",
+   "comments": 46,
+   "created_at": "2026-10-05T20:05:59Z",
+   "html_url": "https://github.com/hoiung/groupwarden/issues/1",
+   "url": "https://api.github.com/repos/hoiung/groupwarden/issues/1",
+   "comments_url": "https://api.github.com/repos/hoiung/groupwarden/issues/1/comments",
+   "body": "#### Framing Validation (complete BEFORE filing)\n\n- [x] Counter-question 1: *Can WhatsApp's official Business Platform do this?* — NO. Groups API overview (developers.facebook.com/documentation/business-messaging/whatsapp/groups, fetched 2026-10-05): \"Max group participants: 8\", \"Max Cloud API businesses per group: 1\", \"Non-supported actions: … Delete message\". The Groups reference page says the business number is \"always added to the group as the creator and admin\" of the invite-only groups it creates; no documented way exists for it to moderate an existing community group.\n- [x] Counter-question 2: *Does a maintained public WhatsApp moderator already do this?* — NO. 6 dedicated public repos found (0–4★, created Feb–Sep 2026); none handles Communities, none blocks a removed member from rejoining, none has keyword+link combination rules in config.\n- [x] Counter-question 3: *Do WhatsApp's native tools (\"Approve new members\", invite-link reset) solve it?* — The operator wrote: \"the quick",
+   "user": {
+    "login": "hoiung"
+   }
+  },
+  {
+   "id": 3633260896,
+   "number": 2075,
+   "title": "Repeated Number Bans on WhatsApp Service",
+   "comments": 12,
+   "created_at": "2025-11-17T13:05:30Z",
+   "html_url": "https://github.com/WhiskeySockets/Baileys/issues/2075",
+   "url": "https://api.github.com/repos/WhiskeySockets/Baileys/issues/2075",
+   "comments_url": "https://api.github.com/repos/WhiskeySockets/Baileys/issues/2075/comments",
+   "body": "I've been experiencing repeated bans on numbers connected to your service. This is affecting our operations and ability to use the API reliably.\n\nCould you advise on:\n\nThe main reasons these numbers are being banned\n\nBest practices or solutions to avoid repeated bans in the future\n\nAny guidance would be appreciated to ensure smooth usage of the service.\n\nThank you,",
+   "user": {
+    "login": "hosamalzagh"
+   }
+  },
+  {
+   "id": 5355758468,
+   "number": 2800,
+   "title": "Account is Restricted.",
+   "comments": 3,
+   "created_at": "2026-09-05T05:10:37Z",
+   "html_url": "https://github.com/WhiskeySockets/Baileys/issues/2800",
+   "url": "https://api.github.com/repos/WhiskeySockets/Baileys/issues/2800",
+   "comments_url": "https://api.github.com/repos/WhiskeySockets/Baileys/issues/2800/comments",
+   "body": "account is being Restricted for 24Hrs after sending 30-40 msgs to new users, any solution to avoid this from happening?\n",
+   "user": {
+    "login": "Srikanth443"
+   }
+  },
+  {
+   "id": 303425518,
+   "number": 114,
+   "title": "Getting banned first day.",
+   "comments": 3,
+   "created_at": "2018-03-08T10:14:21Z",
+   "html_url": "https://github.com/danielcardeenas/whatsapp-framework/issues/114",
+   "url": "https://api.github.com/repos/danielcardeenas/whatsapp-framework/issues/114",
+   "comments_url": "https://api.github.com/repos/danielcardeenas/whatsapp-framework/issues/114/comments",
+   "body": "So I've been trying to use this framework, I managed to succesfully set it up, register my phone and login. I made use of the example code in the repository. (Only hihelp.py to be honest). I also made a second attempt using my own script, which basically just sends random answers I defined in an array, but both of the times I got banned within 24 hours.\r\n\r\nI followed the guidelines on this wiki. I didnt spam, I only sent around 20 messages over a time span of a couple of hours. I set myself in the contact list, and I made sure I was the only one messaging the bot. The bot never started a conversation itself, since it only responds to my messages. I'm not even in any groups.\r\n\r\nSince it was the first time using the framework, I haven't registered any other devices yet. The second time I guess I did...? But I'm doubting that's the issue since I still got banned the first time.\r\n\r\nLastly, I obviously made no use of the yowsup-cli.\r\n\r\nApart from this, I wouldn't really know how to avoid ge",
+   "user": {
+    "login": "AngelMashiro"
+   }
+  }
+ ]
+}

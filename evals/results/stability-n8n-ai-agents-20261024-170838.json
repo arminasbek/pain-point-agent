@@ -1,0 +1,58 @@
+{
+  "niche": "n8n + AI agents",
+  "model": "claude-haiku-5-5",
+  "stability": {
+    "runs": 5,
+    "runs_with_findings": 2,
+    "threads": 6,
+    "threads_in_2_plus_runs": 0.3333333333333333,
+    "mean_pairwise_jaccard": 0.047619047619047616
+  },
+  "runs": [
+    {
+      "problems": [],
+      "threads": [],
+      "stopped": "",
+      "cost_usd": 0.012126030000000001
+    },
+    {
+      "problems": [
+        "AI Agent tool/memory failures in n8n (silent or hard errors)"
+      ],
+      "threads": [
+        "https://github.com/n8n-io/n8n/issues/39670",
+        "https://github.com/n8n-io/n8n/issues/41604"
+      ],
+      "stopped": "",
+      "cost_usd": 0.010979365
+    },
+    {
+      "problems": [],
+      "threads": [],
+      "stopped": "",
+      "cost_usd": 0.008765885000000003
+    },
+    {
+      "problems": [],
+      "threads": [],
+      "stopped": "step limit of 20 reached before finish",
+      "cost_usd": 0.01398388
+    },
+    {
+      "problems": [
+        "AI Agent node fails or silently mishandles tool calls",
+        "Tool call output not linked back on follow-up request (No tool output found for function call)"
+      ],
+      "threads": [
+        "https://community.openai.com/t/need-help-no-tool-output-found-for-function-call-error-after-function-call-in-responses-api/1245970",
+        "https://community.openai.com/t/responses-api-typescript-sdk-no-tool-output-found-for-function-call-despite-correct-echo-and-store-true/1235289",
+        "https://github.com/n8n-io/n8n/issues/38870",
+        "https://github.com/n8n-io/n8n/issues/39670",
+        "https://github.com/n8n-io/n8n/issues/41554",
+        "https://github.com/n8n-io/n8n/issues/41604"
+      ],
+      "stopped": "",
+      "cost_usd": 0.010142665
+    }
+  ]
+}

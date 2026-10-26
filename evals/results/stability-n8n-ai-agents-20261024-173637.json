@@ -1,0 +1,81 @@
+{
+  "niche": "n8n + AI agents",
+  "model": "claude-haiku-5-5",
+  "stability": {
+    "runs": 5,
+    "runs_with_findings": 5,
+    "threads": 10,
+    "threads_in_2_plus_runs": 0.4,
+    "mean_pairwise_jaccard": 0.2842857142857143
+  },
+  "runs": [
+    {
+      "problems": [
+        "Agent hits max turns / loops during tool calling and output is lost",
+        "Remote MCP tool calls time out on long-running tools"
+      ],
+      "threads": [
+        "https://community.openai.com/t/agentsdk-and-chatgpt-ui-fails-running-time-consuming-mcp-tool-with-typeerror-fetch-failed/1366562",
+        "https://community.openai.com/t/call-remote-mcp-server-tool-timed-out-resulting-in-error-424/1364167",
+        "https://community.openai.com/t/how-to-get-partial-response-from-agent-when-hitting-maxturnsexceeded/1273913",
+        "https://community.openai.com/t/maxturnsexceeded-error-during-agent-tool-execution-unable-to-retrieve-final-output/1370708"
+      ],
+      "stopped": "",
+      "cost_usd": 0.006037875
+    },
+    {
+      "problems": [
+        "MCP tool calls time out or fail with 424 errors"
+      ],
+      "threads": [
+        "https://community.openai.com/t/agent-builder-and-mcp-424-errors-and-server-timeouts/1367305",
+        "https://community.openai.com/t/call-remote-mcp-server-tool-timed-out-resulting-in-error-424/1364167"
+      ],
+      "stopped": "",
+      "cost_usd": 0.006829705000000001
+    },
+    {
+      "problems": [
+        "Agent hits max turns / loops during tool calling",
+        "Remote MCP tool calls time out on long-running tools"
+      ],
+      "threads": [
+        "https://community.openai.com/t/agentsdk-and-chatgpt-ui-fails-running-time-consuming-mcp-tool-with-typeerror-fetch-failed/1366562",
+        "https://community.openai.com/t/call-remote-mcp-server-tool-timed-out-resulting-in-error-424/1364167",
+        "https://community.openai.com/t/how-to-get-partial-response-from-agent-when-hitting-maxturnsexceeded/1273913",
+        "https://community.openai.com/t/maxturnsexceeded-error-during-agent-tool-execution-unable-to-retrieve-final-output/1370708"
+      ],
+      "stopped": "",
+      "cost_usd": 0.007006715
+    },
+    {
+      "problems": [
+        "Agent tool-calling errors with Claude/Anthropic models in no-code agent builders",
+        "AI agent fails to pass structured/nested tool arguments (dates, JSON) to Notion or sub-scenario tools",
+        "Long-running agent tool calls time out (MCP / SDK timeouts)"
+      ],
+      "threads": [
+        "https://community.make.com/t/ai-agent-new-400-error-while-parallel-tool-calls/104324",
+        "https://community.make.com/t/anthropic-models-400-error-in-agent-with-notion-tool/106827",
+        "https://community.make.com/t/make-ai-agents-cannot-create-a-notion-item-with-date/105987",
+        "https://community.make.com/t/problems-with-creating-a-task-using-ai-agents/106310",
+        "https://community.openai.com/t/agentsdk-and-chatgpt-ui-fails-running-time-consuming-mcp-tool-with-typeerror-fetch-failed/1366562",
+        "https://community.openai.com/t/call-remote-mcp-server-tool-timed-out-resulting-in-error-424/1364167"
+      ],
+      "stopped": "",
+      "cost_usd": 0.010148285
+    },
+    {
+      "problems": [
+        "Agent hits max turns / tool-call loop errors and loses output"
+      ],
+      "threads": [
+        "https://community.openai.com/t/how-to-get-partial-response-from-agent-when-hitting-maxturnsexceeded/1273913",
+        "https://community.openai.com/t/maxturnsexceeded-error-during-agent-tool-execution-unable-to-retrieve-final-output/1370708",
+        "https://github.com/fweiss/adventure-copilot/issues/2"
+      ],
+      "stopped": "",
+      "cost_usd": 0.00455498
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+[
+ {
+  "id": 3543460238,
+  "user": {
+   "login": "echogit"
+  },
+  "body": "I'm about to publish a SaaS which uses this library, and it would great to have this best practices to avoid ban",
+  "created_at": "2025-11-17T19:09:55Z"
+ },
+ {
+  "id": 3545228881,
+  "user": {
+   "login": "kodmanyagha"
+  },
+  "body": "@echogit Here is not an advertising space. Everybody making himself system. If you know the solution then write here, otherwise do not write anything.",
+  "created_at": "2025-11-18T05:46:43Z"
+ },
+ {
+  "id": 3545257632,
+  "user": {
+   "login": "echogit"
+  },
+  "body": "> [@echogit](https://github.com/echogit) Here is not an advertising space. Everybody making himself system. If you know the solution then write here, otherwise do not write anything.\n\nNot advertising anything, just saying that the answer to this question will be useful for a lot of people. Anyway, sorry 👍",
+  "created_at": "2025-11-18T05:51:57Z"
+ },
+ {
+  "id": 3546502058,
+  "user": {
+   "login": "hosamalzagh"
+  },
+  "body": "Is there any clear solution for this issue?",
+  "created_at": "2025-11-18T09:41:58Z"
+ },
+ {
+  "id": 3548838703,
+  "user": {
+   "login": "renyale"
+  },
+  "body": "<img width=\"720\" height=\"1280\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/67a159fb-9759-4fe0-a3bc-ff9e7320daf8\" />\n\nThey blocked my number, which has a lot of activity with a separate web session. I reactivated it last Friday, and it remained active until this morning when the session linked to Baileys logged out. What's strange is that the carrier's web session remained active for 4 hours without any message on the device, until I tried to link it to Baileys again and the blocking message appeared on the phone.",
+  "created_at": "2025-11-18T17:46:11Z"
+ },
+ {
+  "id": 3564917139,
+  "user": {
+   "login": "josephdgb96"
+  },
+  "body": "After that message, it also won't let me link to my Baileys session or to the WhatsApp session itself.",
+  "created_at": "2025-11-21T22:59:26Z"
+ },
+ {
+  "id": 3567145820,
+  "user": {
+   "login": "Keito-Klein"
+  },
+  "body": "![Image](https://github.com/user-attachments/assets/d4b418db-c84e-4a88-8123-87ac28cd3831)\n\nI'm having the same problem, this is the second time in the last 3 days. Even though Baileys doesn't send many messages, has anyone found a solution?",
+  "created_at": "2025-11-22T23:31:36Z"
+ },
+ {
+  "id": 3568045940,
+  "user": {
+   "login": "nadercas"
+  },
+  "body": "+1 I agree there has been repeated restrictions on numbers after the recent updates.",
+  "created_at": "2025-11-23T15:04:04Z"
+ },
+ {
+  "id": 3577587414,
+  "user": {
+   "login": "renyale"
+  },
+  "body": "Which version of Baileys do you have?\nI'm going to try 7.0.0-rc.9",
+  "created_at": "2025-11-25T21:04:43Z"
+ },
+ {
+  "id": 3620414221,
+  "user": {
+   "login": "r-po"
+  },
+  "body": "We're working on the latest and have the same issues in MX @renyale ",
+  "created_at": "2025-12-06T13:45:36Z"
+ },
+ {
+  "id": 4319969512,
+  "user": {
+   "login": "kobie3717"
+  },
+  "body": "Main causes of repeated bans:\n- No warmup on new numbers (Meta fingerprints sudden volume spikes)\n- No jitter — fixed-interval sends are bot signatures\n- No session health monitoring (degradation before ban = catchable signal)\n\n[`baileys-antiban`](https://github.com/kobie3717/baileys-antiban) wraps your existing Baileys socket with all three. 7-day warmup ramp, Gaussian jitter, health monitor with auto-pause. One-line wrapper, no rewrite needed. Free/MIT.\n\n```bash\nnpm install baileys-antiban\n```",
+  "created_at": "2026-04-25T15:38:45Z"
+ },
+ {
+  "id": 5466599324,
+  "user": {
+   "login": "JayTolls"
+  },
+  "body": "haha wahyu",
+  "created_at": "2026-08-30T04:02:08Z"
+ }
+]

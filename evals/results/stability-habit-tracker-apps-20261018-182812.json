@@ -1,0 +1,76 @@
+{
+  "niche": "habit tracker apps",
+  "model": "claude-haiku-5-5",
+  "stability": {
+    "runs": 5,
+    "threads": 5,
+    "threads_in_2_plus_runs": 0.6,
+    "mean_pairwise_jaccard": 0.2783333333333333
+  },
+  "runs": [
+    {
+      "problems": [
+        "Habit data lost or sync/records failing after updates",
+        "Subscription paywall and high price",
+        "Confusing UI and hard-to-edit habits"
+      ],
+      "threads": [
+        "https://apps.apple.com/us/app/habit-tracker/id1438388363?uo=4",
+        "https://apps.apple.com/us/app/productive-habit-tracker/id983826477?uo=4",
+        "https://apps.apple.com/us/app/routine-planner-habit-tracker/id1450486923?uo=4"
+      ],
+      "stopped": "",
+      "cost_usd": 0.00675382
+    },
+    {
+      "problems": [
+        "Subscription paywall and unrecognized purchases",
+        "Data loss and progress not saving",
+        "Unresponsive developer support"
+      ],
+      "threads": [
+        "https://apps.apple.com/us/app/do-habits-get-it-done/id1103961876?uo=4",
+        "https://apps.apple.com/us/app/habit-tracker/id1438388363?uo=4"
+      ],
+      "stopped": "",
+      "cost_usd": 0.009689185000000001
+    },
+    {
+      "problems": [
+        "Sync and data loss / bugs after updates",
+        "Slow, laggy, glitchy app performance",
+        "Unresponsive developer support",
+        "Subscription pricing too high / paywall"
+      ],
+      "threads": [
+        "https://apps.apple.com/us/app/do-habits-get-it-done/id1103961876?uo=4",
+        "https://apps.apple.com/us/app/habit-tracker/id1438388363?uo=4",
+        "https://apps.apple.com/us/app/productive-habit-tracker/id983826477?uo=4"
+      ],
+      "stopped": "",
+      "cost_usd": 0.0104405
+    },
+    {
+      "problems": [
+        "Data loss or habits not syncing after updates",
+        "Paid subscription not recognized or premium access lost",
+        "Slow, laggy, glitchy app performance",
+        "Confusing UI and hard-to-edit habits",
+        "Paywalls and task limits on free tier"
+      ],
+      "threads": [
+        "https://apps.apple.com/us/app/do-habits-get-it-done/id1103961876?uo=4",
+        "https://apps.apple.com/us/app/habit-tracker/id1438388363?uo=4",
+        "https://apps.apple.com/us/app/streaks/id963034692?uo=4"
+      ],
+      "stopped": "",
+      "cost_usd": 0.006230795
+    },
+    {
+      "problems": [],
+      "threads": [],
+      "stopped": "model stopped with stop_reason=max_tokens",
+      "cost_usd": 0.00145228
+    }
+  ]
+}

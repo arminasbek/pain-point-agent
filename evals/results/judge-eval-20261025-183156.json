@@ -1,0 +1,16 @@
+{
+  "model": "claude-haiku-5-5",
+  "cases": 27,
+  "correct": 26,
+  "accepted_non_complaints": 1,
+  "rejected_complaints": 0,
+  "wrong": [
+    {
+      "quote": "I let it now run for a couple of days, and the results are now looking fine.",
+      "label": false,
+      "reason": "The poster says the live energy flow diagram shows daily totals instead of live values, which they expected to be different, and asks what to change, so they describe a confusing problem they ran into.",
+      "url": "https://community.home-assistant.io/t/victron-data-for-energy-dashboard-wrong-values-wrong-sum/874894"
+    }
+  ],
+  "cost_usd": 0.0040164
+}

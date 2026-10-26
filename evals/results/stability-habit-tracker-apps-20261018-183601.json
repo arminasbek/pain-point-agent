@@ -1,0 +1,84 @@
+{
+  "niche": "habit tracker apps",
+  "model": "claude-haiku-5-5",
+  "stability": {
+    "runs": 5,
+    "threads": 6,
+    "threads_in_2_plus_runs": 0.6666666666666666,
+    "mean_pairwise_jaccard": 0.43499999999999994
+  },
+  "runs": [
+    {
+      "problems": [
+        "Data loss and sync failures after updates",
+        "Confusing UI and onboarding",
+        "Subscription pricing too high / paywall"
+      ],
+      "threads": [
+        "https://apps.apple.com/us/app/habit-tracker/id1438388363?uo=4",
+        "https://apps.apple.com/us/app/productive-habit-tracker/id983826477?uo=4"
+      ],
+      "stopped": "",
+      "cost_usd": 0.009115110000000001
+    },
+    {
+      "problems": [
+        "Habits/progress data lost or not syncing after updates",
+        "Subscription pricing too high / paywall",
+        "Unwanted notifications and nagging"
+      ],
+      "threads": [
+        "https://apps.apple.com/us/app/habit-tracker/id1438388363?uo=4",
+        "https://apps.apple.com/us/app/productive-habit-tracker/id983826477?uo=4",
+        "https://apps.apple.com/us/app/routine-planner-habit-tracker/id1450486923?uo=4"
+      ],
+      "stopped": "",
+      "cost_usd": 0.011920330000000002
+    },
+    {
+      "problems": [
+        "Subscription paywall and paid purchases not recognized",
+        "Slow, laggy, glitchy app performance",
+        "Confusing UI and hard-to-edit habits"
+      ],
+      "threads": [
+        "https://apps.apple.com/us/app/do-habits-get-it-done/id1103961876?uo=4",
+        "https://apps.apple.com/us/app/habit-tracker/id1438388363?uo=4",
+        "https://apps.apple.com/us/app/streaks/id963034692?uo=4"
+      ],
+      "stopped": "",
+      "cost_usd": 0.013285965
+    },
+    {
+      "problems": [
+        "Data loss or progress disappearing after updates or sync",
+        "Confusing or unintuitive UI and setup",
+        "Paywalls, task limits and surprise charges",
+        "Widgets and watch complications broken or missing",
+        "App lag, freezes, or won't open"
+      ],
+      "threads": [
+        "https://apps.apple.com/us/app/do-habits-get-it-done/id1103961876?uo=4",
+        "https://apps.apple.com/us/app/habit-tracker/id1438388363?uo=4",
+        "https://apps.apple.com/us/app/streaks/id963034692?uo=4",
+        "https://apps.apple.com/us/app/strides-habit-tracker-goals/id672401817?uo=4"
+      ],
+      "stopped": "",
+      "cost_usd": 0.009396865
+    },
+    {
+      "problems": [
+        "Data loss after updates or pricing changes",
+        "Unwanted charges and cancellation problems",
+        "Confusing UI and onboarding",
+        "Subscription pricing too high / paywall"
+      ],
+      "threads": [
+        "https://apps.apple.com/us/app/habit-tracker/id1438388363?uo=4",
+        "https://apps.apple.com/us/app/productive-habit-tracker/id983826477?uo=4"
+      ],
+      "stopped": "",
+      "cost_usd": 0.0057434899999999995
+    }
+  ]
+}

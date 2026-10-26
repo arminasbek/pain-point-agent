@@ -1,0 +1,9 @@
+{
+  "model": "claude-haiku-5-5",
+  "cases": 13,
+  "correct": 13,
+  "accepted_outside_niche": 0,
+  "rejected_inside_niche": 0,
+  "wrong": [],
+  "cost_usd": 0.0024216000000000003
+}

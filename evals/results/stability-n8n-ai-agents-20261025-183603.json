@@ -1,0 +1,65 @@
+{
+  "niche": "n8n + AI agents",
+  "model": "claude-haiku-5-5",
+  "stability": {
+    "runs": 5,
+    "runs_with_findings": 4,
+    "threads": 3,
+    "threads_in_2_plus_runs": 0.6666666666666666,
+    "mean_pairwise_jaccard": 0.5
+  },
+  "runs": [
+    {
+      "problems": [
+        "AI Agent node fails or silently mishandles tool calls",
+        "Agent memory and chat history breaks after tool calls"
+      ],
+      "threads": [
+        "https://github.com/n8n-io/n8n/issues/39670",
+        "https://github.com/n8n-io/n8n/issues/41554",
+        "https://github.com/n8n-io/n8n/issues/41604"
+      ],
+      "stopped": "",
+      "cost_usd": 0.007354505000000001
+    },
+    {
+      "problems": [
+        "AI Agent tool/memory failures in n8n (silent or hard errors)"
+      ],
+      "threads": [
+        "https://github.com/n8n-io/n8n/issues/39670",
+        "https://github.com/n8n-io/n8n/issues/41604"
+      ],
+      "stopped": "",
+      "cost_usd": 0.008947510000000002
+    },
+    {
+      "problems": [],
+      "threads": [],
+      "stopped": "",
+      "cost_usd": 0.00733317
+    },
+    {
+      "problems": [
+        "AI Agent node fails on tool-call memory or tool errors"
+      ],
+      "threads": [
+        "https://github.com/n8n-io/n8n/issues/39670",
+        "https://github.com/n8n-io/n8n/issues/41604"
+      ],
+      "stopped": "",
+      "cost_usd": 0.006352405000000001
+    },
+    {
+      "problems": [
+        "AI Agent node tool failures (toolHttpRequest / v3.1 agent) break tool calls"
+      ],
+      "threads": [
+        "https://github.com/n8n-io/n8n/issues/39670",
+        "https://github.com/n8n-io/n8n/issues/41604"
+      ],
+      "stopped": "",
+      "cost_usd": 0.00418732
+    }
+  ]
+}

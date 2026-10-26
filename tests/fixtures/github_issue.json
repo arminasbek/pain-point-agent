@@ -1,0 +1,14 @@
+{
+ "id": 3633260896,
+ "number": 2075,
+ "title": "Repeated Number Bans on WhatsApp Service",
+ "comments": 12,
+ "created_at": "2025-11-17T13:05:30Z",
+ "html_url": "https://github.com/WhiskeySockets/Baileys/issues/2075",
+ "url": "https://api.github.com/repos/WhiskeySockets/Baileys/issues/2075",
+ "comments_url": "https://api.github.com/repos/WhiskeySockets/Baileys/issues/2075/comments",
+ "body": "I've been experiencing repeated bans on numbers connected to your service. This is affecting our operations and ability to use the API reliably.\n\nCould you advise on:\n\nThe main reasons these numbers are being banned\n\nBest practices or solutions to avoid repeated bans in the future\n\nAny guidance would be appreciated to ensure smooth usage of the service.\n\nThank you,",
+ "user": {
+  "login": "hosamalzagh"
+ }
+}
