@@ -179,3 +179,7 @@ sqlite3 data/pain-points.db "select reason from rejections"
 ```
 
 The schema is defined as SQLAlchemy models with Alembic migrations, which run automatically when the database is opened.
+
+## History
+
+This public repo starts at the 1.0.0 release as a single commit. Development happened in a private repo: 52 commits from 2026-10-13 to 2026-10-26.
